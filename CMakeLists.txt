@@ -11,7 +11,6 @@ aux_source_directory(algorithms/for_arrays ARRAY_FILES)
 
 add_executable(DataStruct main.c
         ${SRC_FILES}
-        ${ALGORITHM_FILES}
         ${LIST_FILES}
         ${ARRAY_FILES}
         test.c
