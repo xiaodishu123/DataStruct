@@ -11,6 +11,7 @@ typedef struct bst_node {
     int data;
     struct bst_node* left;// 左子树指针
     struct bst_node* right;// 右子树指针
+    int height;
 } bst_node;
 
 // 二叉搜索树结构体
