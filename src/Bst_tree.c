@@ -5,7 +5,7 @@
 
 #include <stdio.h>
 #include <stdlib.h>
-
+//AVL实现
 int bst_height_(bst_node* root);
 static void update_height(bst_node* node);
 bst_tree* bst_init()
@@ -200,7 +200,7 @@ bst_node* bst_delete_recursive(bst_node* root, int value,int* deleted)//返回�
         {
             return bst_rotate_left(root);
         }
-        if (bf < -1 && bst_balance_factor(root->right) > 0)
+        if (bf < -1 && bst_balance_factor(root->right) > 0)//RL
         {
             root->right = bst_rotate_right(root->right);
             return bst_rotate_left(root);

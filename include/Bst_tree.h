@@ -5,7 +5,7 @@
 #ifndef DATASTRUCT_BST_TREE_H
 #define DATASTRUCT_BST_TREE_H
 
-
+//AVL实现
 // 二叉搜索树节点
 typedef struct bst_node {
     int data;
